@@ -44,53 +44,53 @@ public class ChromeTest {
 	}
 
 	@Test(priority = 1)
-	public void TC_AUTO_PROMANAGER_LOGIN() throws InterruptedException {
-		logInOut.Promanager_Login(driver);
+	public void TC_AUTO_MANAGER_LOGIN() throws InterruptedException {
+		logInOut.manager_Login(driver);
 	}
 	
 	@Test(priority = 2)
-	public void TC_AUTO_PROMANAGER_000() throws InterruptedException{
-		appTest.Promanager_Application_Create(driver);
+	public void TC_AUTO_MANAGER_000() throws InterruptedException{
+		appTest.manager_Application_Create(driver);
 	}
 	
 	@Test(priority = 3)
-	public void TC_AUTO_PROMANAGER_001() throws InterruptedException{
-		appTest.Promanager_Application_Search(driver);
+	public void TC_AUTO_MANAGER_001() throws InterruptedException{
+		appTest.manager_Application_Search(driver);
 	}
 	
 	@Test(priority = 4)
-	public void TC_AUTO_PROMANAGER_002() throws InterruptedException{
-		appTest.Promanager_Application_Update(driver);
+	public void TC_AUTO_MANAGER_002() throws InterruptedException{
+		appTest.manager_Application_Update(driver);
 	}
 	
 	@Test(priority = 5)
-	public void TC_AUTO_PROMANAGER_003() throws InterruptedException{
-		appTest.Promanager_Application_delete(driver);
+	public void TC_AUTO_MANAGER_003() throws InterruptedException{
+		appTest.manager_Application_delete(driver);
 	}
 	
 	@Test(priority = 6)
-	public void TC_AUTO_PROMANAGER_300() throws InterruptedException{
-		nodeTest.Promanager_Node_Create(driver);
+	public void TC_AUTO_MANAGER_300() throws InterruptedException{
+		nodeTest.manager_Node_Create(driver);
 	}
 	
 	@Test(priority = 7)
-	public void TC_AUTO_PROMANAGER_301() throws InterruptedException{
-		nodeTest.Promanager_Node_Update(driver);
+	public void TC_AUTO_MANAGER_301() throws InterruptedException{
+		nodeTest.manager_Node_Update(driver);
 	}
 	
 	@Test(priority = 8)
-	public void TC_AUTO_PROMANAGER_302() throws InterruptedException{
-		nodeTest.Promanager_Node_Search(driver);
+	public void TC_AUTO_MANAGER_302() throws InterruptedException{
+		nodeTest.manager_Node_Search(driver);
 	}
 	
 	@Test(priority = 9)
-	public void TC_AUTO_PROMANAGER_303() throws InterruptedException{
-		nodeTest.Promanager_Node_Delete(driver);
+	public void TC_AUTO_MANAGER_303() throws InterruptedException{
+		nodeTest.manager_Node_Delete(driver);
 	}
 	
 	@Test(priority = 10)
-	public void TC_AUTO_PROMANAGER_LOGOUT() throws InterruptedException{
-		logInOut.Promanager_Logout(driver);
+	public void TC_AUTO_MANAGER_LOGOUT() throws InterruptedException{
+		logInOut.manager_Logout(driver);
 	}
 
 	@AfterClass
